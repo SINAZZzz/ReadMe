@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./35ca384239701ceaa06a6f0d9d33299c.gif");
+    color: white;
+} 
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem ;
+}
+
+.name{
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+}
+
+.description-name{
+    font-size: 1.4rem;
+    margin: 10px;
+}
+
+.welcome{
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
+}
+
