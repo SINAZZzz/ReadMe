@@ -32,3 +32,22 @@ body{
     text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
 }
 
+.description{
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.title-techs{
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
+}
+
+.title-certificates{
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
+}
+
+.title-contect{
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
+}
