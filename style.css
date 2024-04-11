@@ -1,53 +1,96 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url("./35ca384239701ceaa06a6f0d9d33299c.gif");
-    color: white;
-} 
-
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 4rem ;
+body {
+  background-image: url("./35ca384239701ceaa06a6f0d9d33299c.gif");
+  color: white;
 }
 
-.name{
-    font-size: 2.5rem;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
 }
 
-.description-name{
-    font-size: 1.4rem;
-    margin: 10px;
+.name {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
 }
 
-.welcome{
-    font-size: 1.4rem;
-    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
+.description-name {
+  font-size: 1.4rem;
+  margin: 10px;
 }
 
-.description{
-    font-size: 1.3rem;
-    margin: 10px;
+.welcome {
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255),
+    0 0 0.2em rgb(0, 217, 255);
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 40;
+  animation-direction: alternate;
 }
 
-.title-techs{
-    font-size: 1.4rem;
-    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
+@keyframes example {
+  0% {
+    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255),
+    0 0 0.2em rgb(0, 217, 255);
+  }
+  25% {
+    text-shadow: 1px 1px 2px rgb(183, 255, 0), 0 0 1em rgb(183, 255, 0),
+    0 0 0.2em rgb(183, 255, 0);
+  }
+  50% {
+    text-shadow: 1px 1px 2px rgb(255, 102, 0), 0 0 1em rgb(255, 102, 0)
+    0 0 0.2em rgb(255, 102, 0);
+  }
+  75% {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0),
+    0 0 0.2em rgb(0, 0, 0);
+  }
+  100% {
+    text-shadow: 1px 1px 2px rgb(0, 0, 255), 0 0 1em rgb(0, 0, 255),
+    0 0 0.2em rgb(0, 0, 255);
+  }
 }
 
-.title-certificates{
-    font-size: 1.4rem;
-    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
+.description {
+  font-size: 1.3rem;
+  margin: 10px;
 }
 
-.title-contect{
-    font-size: 1.4rem;
-    text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255), 0 0 0.2em rgb(0, 217, 255);
+.title-techs {
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255),
+    0 0 0.2em rgb(0, 217, 255);
+    animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 40;
+  animation-direction: alternate;
+}
+
+.title-certificates {
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255),
+    0 0 0.2em rgb(0, 217, 255);
+    animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 40;
+  animation-direction: alternate;
+}
+
+.title-contect {
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 2px rgb(0, 217, 255), 0 0 1em rgb(0, 217, 255),
+    0 0 0.2em rgb(0, 217, 255);
+    animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 40;
+  animation-direction: alternate;
 }
